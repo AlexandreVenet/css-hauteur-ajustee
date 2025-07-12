@@ -1,1 +1,1 @@
-Page de test : [GitHub Page](https://github.com/AlexandreVenet/css-hauteur-ajustee/deployments/github-pages)
+Page de test : [GitHub Page](https://alexandrevenet.github.io/css-hauteur-ajustee/)
