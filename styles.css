@@ -2,29 +2,8 @@
 {
 	box-sizing: border-box;
 }
-html, 
-body
-{
-	margin: 0;
-	padding: 0;
-	border: none;
-	text-align: justify;
-	/* hauteur max du parent (ici le viewport) */
-	height: 100%;
-}
 body
 {
 	background-color: black;
 	color:gray;
-}
-main
-{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	background-color: darkslategrey;
-	padding:10rem;
-	/* hauteur ajustée au parent ET autoriser la disparition de la nav mobile */
-	min-height: 100dvh;
 }

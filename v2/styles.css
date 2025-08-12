@@ -1,0 +1,77 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+:root
+{
+	--largeurMax: 1500px;
+	--largeurNav: 250px;
+	--largeurNavMoins: -250px;
+	--largeurMaxSansNav: calc(var(--largeurMax) - var(--largeurNav));
+	
+	--couleurTresSombre: rgb(26,30,36);
+	--couleurSombre: rgb(32,36,43);
+	--couleurMoyenne: rgb(39,43,52);
+	--couleurMoyenneClaire1x: rgb(66,73,88);
+	--couleurMoyenneClaire2x: rgb(82,90,102);
+	--couleurClaire: rgb(166,174,186);
+	--couleurClaireStrong: rgb(196, 204, 213);
+	--couleurTresClaire: rgb(255,255,255);
+	--couleurAttention: rgb(102,179,255);
+	--couleurContenuSpecial: rgb(49, 54, 64);
+}
+body
+{
+	background-color: black;
+	color:gray;
+	overflow: hidden;
+}
+header
+{
+	background-color: var(--couleurTresSombre);
+	padding: 1rem;
+}
+.principal
+{
+	display: flex;
+	height: calc(100vh - 3.1rem);
+	position: relative;
+}
+.colVide
+{
+	flex:1;
+}
+nav
+{
+	overflow: hidden;
+	flex-basis: var(--largeurNav);
+	flex-shrink: 0;
+	background-color: var(--couleurSombre);
+}
+nav section a
+{
+	display: block;
+}
+nav section
+{
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 100%;
+}
+.invisible
+{
+	display: none;
+}
+main
+{
+	flex-grow: 1;
+	/* Pour que <pre> se redimensionne 
+	https://weblog.west-wind.com/posts/2016/feb/15/flexbox-containers-pre-tags-and-managing-overflow 
+	*/
+	min-width: 0; 
+	flex-basis: var(--largeurMaxSansNav);
+	background-color: var(--couleurMoyenne);
+}
