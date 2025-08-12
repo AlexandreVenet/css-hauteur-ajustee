@@ -23,6 +23,11 @@
 	--couleurAttention: rgb(102,179,255);
 	--couleurContenuSpecial: rgb(49, 54, 64);
 }
+/* html,
+body
+{
+	height: 100%;
+} */
 body
 {
 	background-color: black;
@@ -38,6 +43,7 @@ header
 {
 	display: flex;
 	height: calc(100vh - 3.1rem);
+	min-height: calc(100vh - 3.1rem);
 	position: relative;
 }
 .colVide
