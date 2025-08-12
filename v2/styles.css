@@ -23,16 +23,16 @@
 	--couleurAttention: rgb(102,179,255);
 	--couleurContenuSpecial: rgb(49, 54, 64);
 }
-/* html,
-body
-{
-	height: 100%;
-} */
+
 body
 {
 	background-color: black;
 	color:gray;
 	overflow: hidden;
+}
+.superConteneur
+{
+	height: 100vh;
 }
 header
 {
