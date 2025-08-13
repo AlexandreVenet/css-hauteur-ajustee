@@ -76,7 +76,7 @@ nav section
 {
 	overflow-x: hidden;
 	overflow-y: auto;
-	height: calc(100% - 1.1rem);
+	height: calc(100% - 1.1rem);	
 	border: 5px dashed salmon;
 }
 nav section a
