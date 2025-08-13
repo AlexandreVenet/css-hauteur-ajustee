@@ -45,7 +45,7 @@ header
 .principal
 {
 	display: flex;
-	height: calc(100vh - 3.1rem);
+	height: calc(100vh - 3.1rem - 5rem);
 	min-height: calc(100vh - 3.1rem);
 	position: relative;
 	overflow: hidden;
