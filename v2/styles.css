@@ -32,9 +32,9 @@ body
 }
 .superConteneur
 {
-	height: 100vh;
+	height: 100dvh;
 	/* min-height: 100vh; */
-	border: 1px solid red;
+	border: 5px solid red;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
@@ -52,7 +52,7 @@ header
 	height: 100%;
 	position: relative;
 	overflow: hidden;
-	border: 1px solid yellow;
+	border: 5px solid yellow;
 }
 .colVide
 {
@@ -65,14 +65,14 @@ nav
 	flex-shrink: 0;
 	background-color: var(--couleurSombre);
 	height: 100%;
-	border:1px solid green;
+	border:5px solid green;
 }
 nav section
 {
 	overflow-x: hidden;
 	overflow-y: auto;
 	height: calc(100% - 1.1rem);
-	border: 1px dashed salmon;
+	border: 5px dashed salmon;
 }
 nav section a
 {
