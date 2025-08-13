@@ -32,8 +32,9 @@ body
 }
 .superConteneur
 {
+	height: 100vh;
 	min-height: 100vh;
-	border:1px solid red;
+	border: 1px solid red;
 	overflow: hidden;
 }
 header
@@ -44,9 +45,11 @@ header
 .principal
 {
 	display: flex;
-	/* height: calc(100vh - 3.1rem); */
-	min-height: calc(100vh - 3.1rem);
+	height: calc(100vh - 3.1rem);
+	/* min-height: calc(100vh - 3.1rem); */
 	position: relative;
+	overflow: hidden;
+	border: 1px solid yellow;
 }
 .colVide
 {
@@ -58,16 +61,18 @@ nav
 	flex-basis: var(--largeurNav);
 	flex-shrink: 0;
 	background-color: var(--couleurSombre);
-}
-nav section a
-{
-	display: block;
+	height: 100%;
+	border:1px solid green;
 }
 nav section
 {
 	overflow-x: hidden;
 	overflow-y: auto;
-	height: 100vh;
+	/* flex: 1; */
+}
+nav section a
+{
+	display: block;
 }
 .invisible
 {
